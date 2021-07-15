@@ -1,0 +1,3 @@
+#! /bin/sh
+
+cc -g -std=c99 -Wall -Wextra -pedantic alg.c -o program
