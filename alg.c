@@ -67,7 +67,12 @@ static inline int fits(uint32_t w1, uint32_t h1, uint32_t w2, uint32_t h2)
     return w1 <= w2 && h1 <= h2;
 }
 
-static inline Place search(int searcher, int searchee, Rect *rects)
+static Place search(int searcher, int searchee, Rect *rects)
+{
+    
+}
+
+static void insert(int rect, Rect *rects, Place place)
 {
     
 }
